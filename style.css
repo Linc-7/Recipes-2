@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    background-color: #000000;
+    text-decoration: none;
+    color: rgb(200, 255, 72);
+}
+.image{
+    width: 400px;
+    border-radius: 10px;
+    border-color: rgb(200, 255, 72);
+    border-style: groove;
+
+}
+.textcolor {
+    color: rgb(200, 255, 72);
+
+}
+
+  #transition-container {
+    width: 100vw;
+    height: 100vh;
+    /*display: flex;*/
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    border-radius: 8px;
+    border-color: rgb(200, 255, 72);
+    background-color: #000000;
+    font-size: 18px;
+    padding: 16px 24px;
+    text-align: center;
+
+    
+  }
+  
+  /* SOLUTION */
+  
+  button {
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.2)
+  }
